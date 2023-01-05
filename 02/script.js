@@ -1,7 +1,6 @@
-const grupoA = 500;
-const grupoB = 200;
+import quadrado from "./quadrado";
+import numeroAleatorio from "./numeroAleatorio";
 
-const active = false;
-const button = active && 'Botão está ativo';
 
-console.log(button);
+console.log(quadrado.perimetroQuadrado(5)); 
+console.log(numeroAleatorio());
